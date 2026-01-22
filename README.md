@@ -4,25 +4,19 @@ A Claude skill for creating, reviewing, and improving operational runbooks.
 
 ## Installation
 
-### Claude Code
+### Personal Skills (available in all projects)
 
-Add to your `.claude/settings.json`:
-
-```json
-{
-  "permissions": {
-    "additionalDirectories": [
-      "/path/to/runbook-skill"
-    ]
-  }
-}
+```bash
+git clone https://github.com/r33drichards/runbook-skill ~/.claude/skills/runbook
 ```
 
-Or clone and reference in your project's `.mcp.json` or skill configuration.
+### Project Skills (single project only)
 
-### Claude.ai
+```bash
+git clone https://github.com/r33drichards/runbook-skill .claude/skills/runbook
+```
 
-Upload the `runbook.skill` file from [Releases](../../releases) to your Claude.ai workspace.
+After installation, the skill is available as `/runbook`.
 
 ## What This Skill Does
 
