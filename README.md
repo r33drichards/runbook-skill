@@ -18,6 +18,22 @@ git clone https://github.com/r33drichards/runbook-skill .claude/skills/runbook
 
 After installation, the skill is available as `/runbook`.
 
+### As a Plugin
+
+Install from GitHub:
+
+```bash
+claude plugins add https://github.com/r33drichards/runbook-skill
+```
+
+Or test locally:
+
+```bash
+claude --plugin-dir /path/to/runbook-skill
+```
+
+When installed as a plugin, the skill is available as `/runbook-skill:runbook`.
+
 ## What This Skill Does
 
 - Creates standardized runbooks for operational procedures

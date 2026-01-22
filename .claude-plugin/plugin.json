@@ -1,0 +1,8 @@
+{
+  "name": "runbook-skill",
+  "description": "A Claude skill for creating, reviewing, and improving operational runbooks",
+  "version": "1.0.0",
+  "author": {
+    "name": "r33drichards"
+  }
+}
